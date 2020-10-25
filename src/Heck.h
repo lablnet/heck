@@ -25,7 +25,7 @@ class Heck : public Lablnet::File {
         bool matchExt(std::string file, std::string& extension) {
             std::vector<std::string> arr = Lablnet::split(file, ".");
             // match the extension... otherwise skip it.
-            if (ext == "*") return true;
+            if (extension == "*") return true;
             if (arr[arr.size() - 1] == extension) return true;
             return false;
         }
