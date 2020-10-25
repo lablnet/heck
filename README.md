@@ -16,7 +16,7 @@ A simple C++ program to count number of lines in project/files.
 
 ## Contribution
 You're welcome to contribute to this project.
-You should follow contribution guideline [Contribution guideline](https://github.com/lablnet/heck/blob/master/CONTRIBUTING.md)
+You should follow contribution guideline [Contribution guideline](https://github.com/lablnet/heck/blob/main/CONTRIBUTING.md)
 
 
 ## License
