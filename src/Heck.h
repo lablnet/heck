@@ -14,7 +14,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <utility>
 #include "Str.h"
 #include "File.h"
 
@@ -23,7 +22,7 @@ class Heck : public Lablnet::File {
     private:
         std::string path;
         std::string ext;
-        bool matchExt(std::string file, std::string extension) {
+        bool matchExt(std::string file, std::string& extension) {
             std::vector<std::string> arr = Lablnet::split(file, ".");
             // match the extension... otherwise skip it.
             if (ext == "*") return true;
