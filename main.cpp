@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc <= 1) {
-        std::cout << "Please provide required argument.";
+        std::cout << "Please provide required argument." << std::endl;
         return 1;
     }
     //for (int i = 0; i < argc; ++i)

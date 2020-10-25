@@ -32,6 +32,9 @@ namespace Lablnet {
                 for (const auto &entry : std::filesystem::recursive_directory_iterator(path)) {
                     files.insert(files.begin(), entry.path());
                 }
+            } else {
+                std::cout << "No such directory found!" << std::endl;
+                exit(1);
             }
 
             return files;
