@@ -27,6 +27,15 @@ namespace Lablnet {
         }
         return arr;
     }
+
+    std::string trim(std::string str) {
+        std::string temp;
+        for (auto &ch : str) {
+            if (!isspace(ch)) temp += ch;
+        }
+
+        return temp;
+    }
 }
 
 #endif //HECK_STR_H
