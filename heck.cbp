@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="heck"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heck">
+				<Option output="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/heck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 heck"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heck/fast">
+				<Option output="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/heck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 heck/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/lablnet/Muhammad\ Umer\ Farooq/Projects/cpp/heck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/main.cpp">
+			<Option target="heck"/>
+		</Unit>
+		<Unit filename="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/src/File.h">
+			<Option target="heck"/>
+		</Unit>
+		<Unit filename="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/src/Heck.h">
+			<Option target="heck"/>
+		</Unit>
+		<Unit filename="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/src/Str.h">
+			<Option target="heck"/>
+		</Unit>
+		<Unit filename="/home/lablnet/Muhammad Umer Farooq/Projects/cpp/heck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

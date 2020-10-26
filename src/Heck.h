@@ -36,25 +36,34 @@ class Heck : public Lablnet::File {
         void parse() {
             std::cout << "started...\n";
             std::string line;
-            long long int count, tCount = 0;
+            long long int count = 0, tCount = 0, newLine = 0, tNewLine = 0;
             std::vector<std::string> files = getFiles(this->path);
             for (auto & file : files) {
-                count = 0;
+                count = 0, newLine = 0;
                 if (matchExt(file, this->ext)) {
-                    std::cout << " Processing file : " << file << std::endl;
+                    std::cout << "Processing file : " << file << std::endl;
                     std::ifstream openFile (file);
                     if (openFile.is_open()) {
                         while (std::getline(openFile, line)) {
+                            //std::cout << line << std::endl;
                             count++;
+
+                            // count new lines.
+                            if (line.empty()) {
+                                newLine++;
+                            }
                         }
                         std::cout << file << " : " << count << std::endl;
+                        std::cout << file << " : " << newLine    << std::endl;
                         tCount += count;
+                        tNewLine += newLine;
                         openFile.close(); //safely close the file.
                     }
                 }
             }
 
             std::cout << "Total count: " << tCount << std::endl;
+            std::cout << "Total line breaks count: " << tNewLine << std::endl;
         }
     };
 }
